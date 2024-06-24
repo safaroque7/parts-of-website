@@ -19,7 +19,6 @@
     <div class="container-fluid">
       <div class="row">
         <!-- vertical navbar start -->
-        <!-- vertical navbar start -->
         <div class="col-md-2">
           <nav class="navbar bg-light vh-100 overflow-scroll">
               <ul class="navbar-nav position-absolute top-0">
@@ -161,54 +160,53 @@
           </nav>
         </div>
         <!-- vertical navbar end -->
-        <!-- vertical navbar end -->
 
-        <div class="col-md-10">
+        <div class="col-md-10 mt-5">
           <div class="container">
             <div class="row">
-              <div class="col-md-8 mb-md-5">
-                <!--  ******************************************** slider 1 start ********************************************  -->
-                <link rel="stylesheet" href="css/flexslider.css" />
-                <style>
-                  .flex-direction-nav a {
-                    height: 47px;
-                  }
-                </style>
-                <!-- Place somewhere in the <body> of your page -->
-                <div class="flexslider">
-                  <ul class="slides">
-                    <li data-thumb="https://picsum.photos/id/5/1000/550">
-                      <img src="https://picsum.photos/id/5/1000/550" />
-                    </li>
-                    <li data-thumb="https://picsum.photos/id/10/1000/550">
-                      <img src="https://picsum.photos/id/10/1000/550" />
-                    </li>
-                    <li data-thumb="https://picsum.photos/id/15/1000/550">
-                      <img src="https://picsum.photos/id/15/1000/550" />
-                    </li>
-                    <li data-thumb="https://picsum.photos/id/20/1000/550">
-                      <img src="https://picsum.photos/id/20/1000/550" />
-                    </li>
-                  </ul>
+              <style>
+                @media only screen and (max-width: 767px) {
+                        .border-none-mobile-version{
+                          border-right: none !important;
+                      }
+                    }
+              </style>
+              <div class="col-md-4 border-end border-secondary border-none-mobile-version">
+                <img src="https://picsum.photos/480/480" alt="News Head Line" class="mb-md-3 img-fluid">
+                <h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere. </h4>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, molestias, repellat recusandae illum architecto consequatur itaque repudiandae fugit, odio ipsam quia? </p>
+
+                <p class="text-muted mb-md-0 mb-4"> ৪ মিনিট আগে </p>
+
+              </div>
+
+              <div class="col-md-8">
+                <div class="border-bottom border-secondary mb-md-4 mb-2 pb-md-4 pb-2">
+                  <div class="row">
+                    <div class="col-6 border-end border-secondary border-none-mobile-version">
+                        <img src="https://picsum.photos/480/250" alt="News Head Line" class="mb-md-3 img-fluid">
+                        <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere. </h5>
+                      </div>
+
+                    <div class="col-6">
+                      <img src="https://picsum.photos/480/250" alt="News Head Line" class="mb-md-3 img-fluid">
+                      <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere. </h5>
+                    </div>
+                  </div>
                 </div>
 
-                <!-- jQuery -->
+                <div class="row">
+                  <div class="col-6 border-end border-secondary border-none-mobile-version">
+                    <img src="https://picsum.photos/480/250" alt="News Head Line" class="mb-md-3 img-fluid">
+                    <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere. </h5>
+                  </div>
 
-                <script src="https://code.jquery.com/jquery-1.7.min.js"></script>
-                <!-- FlexSlider -->
-                <script defer src="js/jquery.flexslider.js"></script>
-
-                <script>
-                  // Can also be used with $(document).ready()
-                  $(window).load(function () {
-                    $(".flexslider").flexslider({
-                      animation: "slide",
-                      controlNav: "thumbnails",
-                    });
-                  });
-                </script>
-                <!--  ******************************************** slider 1 end ********************************************  -->
+                  <div class="col-6">
+                    <img src="https://picsum.photos/480/250" alt="News Head Line" class="mb-md-3 img-fluid">
+                    <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere. </h5>
+                  </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
