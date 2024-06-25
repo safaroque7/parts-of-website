@@ -166,65 +166,61 @@
         <div class="col-md-10">
           <div class="container">
 
+            <!-- breadcrumb start -->
             <div class="row my-md-5">
               <div class="col-12">
                 <div class="d-flex">
                   <a href="index.html"> Home </a> &nbsp; >> &nbsp;
-                  <p class="my-0"> Photo Gallery 1 </p>
+                  <p class="my-0"> Slider </p>
                 </div>
               </div>
             </div>
+            <!-- breadcrumb end -->
 
 
-            <div class="row">
-              <div class="col-md-8 mb-md-5">
 
+            <!-- ******************************************************************************************************************************************************************************************************************************************************************************************
+            start your design here 
+            ******************************************************************************************************************************************************************************************************************************************************************************************
+            -->
 
-                <!--  ******************************************** slider 1 start ********************************************  -->
-                <link rel="stylesheet" href="css/flexslider.css" />
-                <style>
-                  .flex-direction-nav a {
-                    height: 47px;
-                  }
-                </style>
-                <!-- Place somewhere in the <body> of your page -->
-                <div class="flexslider">
-                  <ul class="slides">
-                    <li data-thumb="https://picsum.photos/id/5/1000/550">
-                      <img src="https://picsum.photos/id/5/1000/550" />
-                    </li>
-                    <li data-thumb="https://picsum.photos/id/10/1000/550">
-                      <img src="https://picsum.photos/id/10/1000/550" />
-                    </li>
-                    <li data-thumb="https://picsum.photos/id/15/1000/550">
-                      <img src="https://picsum.photos/id/15/1000/550" />
-                    </li>
-                    <li data-thumb="https://picsum.photos/id/20/1000/550">
-                      <img src="https://picsum.photos/id/20/1000/550" />
-                    </li>
-                  </ul>
+            <div class="container-fluid">
+              <div class="row">
+  
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://picsum.photos/id/10/1200/400" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://picsum.photos/id/15/1200/400" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://picsum.photos/id/20/1200/400" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-
-                <!-- jQuery -->
-
-                <script src="https://code.jquery.com/jquery-1.7.min.js"></script>
-                <!-- FlexSlider -->
-                <script defer src="js/jquery.flexslider.js"></script>
-
-                <script>
-                  // Can also be used with $(document).ready()
-                  $(window).load(function () {
-                    $(".flexslider").flexslider({
-                      animation: "slide",
-                      controlNav: "thumbnails",
-                    });
-                  });
-                </script>
-                <!--  ******************************************** slider 1 end ********************************************  -->
-
-                
+  
               </div>
             </div>
+  
+              <!-- ******************************************************************************************************************************************************************************************************************************************************************************************
+              end your design here 
+              ******************************************************************************************************************************************************************************************************************************************************************************************
+              -->
+
+
+          
+
+
           </div>
         </div>
       </div>
